@@ -291,7 +291,7 @@ export const workExperiences = [
     pos: 'Process Engineer Working Student',
     duration: 'Feb 2022 - Feb 2024',
     title: "In this role, I developed Python Dashboards for machine data visualization, automated measurement procedures with Python and analyzed results to create technical reports. I also contributed to qualifying devices for medical implant production and collaborated on developing an innovative IOL insertion holder.",
-    icon: '/assets/framer.svg',
+    icon: '/assets/zeiss.png',
     animation: 'victory',
   },
   {
@@ -300,7 +300,7 @@ export const workExperiences = [
     pos: 'Pre-Internship',
     duration: 'March 2020 - May 2022',
     title: "I acquired basic skills in metalworking processes and techniques and gained essential knowledge in mechanical engineering principles",
-    icon: '/assets/figma.svg',
+    icon: '/assets/opel.png',
     animation: 'clapping',
   },
   {
