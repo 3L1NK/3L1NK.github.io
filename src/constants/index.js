@@ -91,7 +91,7 @@ export const myProjects = [
       'I contributed to MURMEL by implementing ML models, computer vision techniques, and refining sensor fusion to improve object detection, orientation accuracy and overall system efficiency in dynamic urban environments.',
     href: 'https://www.tu.berlin/en/mpm/research/projects/murmel',
     texture: '/textures/project/project1.mp4',
-    logo: '/assets/project-logo1.png',
+    logo: '/assets/mpm.png',
     logoStyle: {
       backgroundColor: '#2A1816',
       border: '0.2px solid #36201D',
@@ -101,34 +101,34 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
+        name: 'Python',
+        path: '/assets/python.png',
       },
       {
         id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
+        name: 'TF',
+        path: 'assets/tf.png',
       },
       {
         id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
+        name: 'C++',
+        path: '/assets/c++.png',
       },
       {
         id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
+        name: 'ROS',
+        path: '/assets/ros.png',
       },
     ],
   },
   {
-    title: 'LiveDoc - Real-Time Google Docs Clone',
-    desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
+    title: 'Stock Forecast and Sentiment Dashboard',
+    desc: 'The Stock Forecast and Sentiment Dashboard provides comprehensive insights into the stock market using advanced predictive analytics, sentiment analysis and real-time market trends. By leveraging machine learning models and natural language processing (NLP) techniques, it empowers users to make informed investment decisions with actionable insights.',
     subdesc:
-      'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
-    href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
+      'Key features include stock prediction models like Linear Regression, XGBoost, ARIMA and LSTM for accurate forecasts, and sentiment analysis through VADER Lexicon, Twitter RoBERTa, and BART Large MNLI. Designed for individuals with prior stock market knowledge, this dashboard bridges data science and finance for smarter investing.',
+    href: 'https://github.com/3L1NK/Stock_Forecast_and_Sentiment_Dashboard',
     texture: '/textures/project/project2.mp4',
-    logo: '/assets/project-logo2.png',
+    logo: '/assets/money.png',
     logoStyle: {
       backgroundColor: '#13202F',
       border: '0.2px solid #17293E',
@@ -138,34 +138,34 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
+        name: 'Python',
+        path: '/assets/python.png',
       },
       {
         id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
+        name: 'Docker',
+        path: 'assets/docker.png',
       },
       {
         id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
+        name: 'Google Cloud',
+        path: '/assets/gcp.png',
       },
       {
         id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
+        name: 'Hugging Face',
+        path: '/assets/huggingface.png',
       },
     ],
   },
   {
-    title: 'CarePulse - Health Management System',
-    desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
+    title: 'Blockchain for Networked Automation',
+    desc: 'The Blockchain for Networked Automation Project investigates the application of blockchain technology to enhance communication and data transfer within industrial automation systems. By leveraging blockchain’s decentralized and cryptographic properties, the project aims to implement secure and efficient communication protocols for networked environments.',
     subdesc:
-      'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
-    href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
+      'This project explores the integration of blockchain into automation technology, focusing on designing communication protocols, implementing smart contracts for secure data flow, and evaluating performance in simulated environments. It aims to address the challenges of secure, scalable, and efficient communication in networked systems, providing a foundation for future advancements in blockchain-enabled automation.',
+    href: 'https://github.com/3L1NK/Blockchain_for_network_automation',
     texture: '/textures/project/project3.mp4',
-    logo: '/assets/project-logo3.png',
+    logo: '/assets/bitcoin.png',
     logoStyle: {
       backgroundColor: '#60f5a1',
       background:
@@ -177,34 +177,34 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
+        name: 'Java Script',
+        path: '/assets/js.png',
       },
       {
         id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
+        name: 'Solana',
+        path: 'assets/solana.png',
       },
       {
         id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
+        name: 'Python',
+        path: '/assets/python.png',
       },
       {
         id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
+        name: 'Node Js',
+        path: '/assets/nodejs.png',
       },
     ],
   },
   {
-    title: 'Horizon - Online Banking Platform',
-    desc: 'Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.',
+    title: 'IBM Data Science Certificate',
+    desc: 'The IBM Data Science Professional Certificate on Coursera provides hands-on experience with data science tools, methodologies, and programming languages like Python, SQL, and machine learning through real-world projects.',
     subdesc:
-      'Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.',
-    href: 'https://www.youtube.com/watch?v=PuOVqP_cjkE',
+      'This program honed my skills in data analysis, database management, and machine learning. Projects included analyzing datasets, building visualizations, and deploying predictive models, showcasing my ability to derive insights and solve complex problems.',
+    href: 'https://www.coursera.org/account/accomplishments/specialization/KBINKE63XRYL',
     texture: '/textures/project/project4.mp4',
-    logo: '/assets/project-logo4.png',
+    logo: '/assets/ibm.png',
     logoStyle: {
       backgroundColor: '#0E1F38',
       border: '0.2px solid #0E2D58',
@@ -214,60 +214,23 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
+        name: 'Python',
+        path: '/assets/python.png',
       },
       {
         id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
+        name: 'TF',
+        path: 'assets/tf.png',
       },
       {
         id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
+        name: 'SQL',
+        path: '/assets/sql.png',
       },
       {
         id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
-      },
-    ],
-  },
-  {
-    title: 'Imaginify - AI Photo Manipulation App',
-    desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
-    subdesc:
-      'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
-    href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
-    texture: '/textures/project/project5.mp4',
-    logo: '/assets/project-logo5.png',
-    logoStyle: {
-      backgroundColor: '#1C1A43',
-      border: '0.2px solid #252262',
-      boxShadow: '0px 0px 60px 0px #635BFF4D',
-    },
-    spotlight: '/assets/spotlight5.png',
-    tags: [
-      {
-        id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
-      },
-      {
-        id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
-      },
-      {
-        id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
-      },
-      {
-        id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
+        name: 'Docker',
+        path: '/assets/docker.png',
       },
     ],
   },
