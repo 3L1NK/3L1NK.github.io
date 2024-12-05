@@ -33,7 +33,7 @@ const About = () => {
             <div>
               <p className="grid-headtext">Hello World, I’m Eric Rusli 🇮🇩</p>
               <p className="grid-subtext">
-                I'm an Indonesian student based in Berlin, Germany. Currently, I'm building my carreer as ML Engineer / ML DevOps. 
+                I'm an Indonesian student based in Berlin, Germany. Currently, I'm building my carreer as an ML Engineer / ML DevOps. 
               </p>
             </div>
           </div>
