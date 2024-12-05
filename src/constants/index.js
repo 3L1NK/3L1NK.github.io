@@ -250,15 +250,6 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const workExperiences = [
   {
     id: 1,
-    name: 'Notion',
-    pos: 'Junior Web Developer',
-    duration: '2024 - 2024',
-    title: "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
-    icon: '/assets/notion.svg',
-    animation: 'salute',
-  },
-  {
-    id: 2,
     name: 'Carl Zeiss Medical Technology',
     pos: 'Process Engineer Working Student',
     duration: 'Feb 2022 - Feb 2024',
@@ -267,7 +258,7 @@ export const workExperiences = [
     animation: 'victory',
   },
   {
-    id: 3,
+    id: 2,
     name: 'Opel GmbH',
     pos: 'Pre-Internship',
     duration: 'March 2020 - May 2022',
