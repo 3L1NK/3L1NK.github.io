@@ -1,0 +1,38 @@
+# Python virtual environment
+venv/
+.env/
+.venv/
+env/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.python-version
+
+# Jupyter and notebooks
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# VS Code and IDE settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Environment & logs
+*.log
+*.env
+.envrc
+
+# Build and packaging
+build/
+dist/
+*.egg-info/
+.eggs/
