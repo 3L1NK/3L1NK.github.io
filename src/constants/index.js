@@ -253,24 +253,28 @@ export const workExperiences = [
     name: 'Lanch GmbH',
     pos: 'Software Engineer Internship',
     duration: 'March 2025 - August 2025',
-    title: `●	Built and maintained containerized data pipelines (Docker, Airflow, dbt) on GCP, integrating multiple data sources.
-            ●	Developed automated deployment workflows for ETL jobs using CI/CD
-            ●	Automated billing and invoicing across HubSpot, BigQuery and payment APIs
-            ●	Implemented monitoring and alerting for live data syncs across 550+ stores to ensure consistent performance and uptime.
-            ●	Collaborated with other department teams to design scalable system architectures for real time analytics.
-            ●	Created an SQL Copilot (Python + RAG) serving 1000+ internal analytics queries.
-            ●	Built and maintained Metabase dashboards and BI pipelines for performance monitoring and partner KPIs.`,
+    title: [
+      'Built and maintained containerized data pipelines (Docker, Airflow, dbt) on GCP, integrating multiple data sources',
+      'Developed automated deployment workflows for ETL jobs using CI/CD',
+      'Automated billing and invoicing across HubSpot, BigQuery and payment APIs',
+      'Implemented monitoring and alerting for live data syncs across 550+ stores to ensure consistent performance and uptime',
+      'Collaborated with other department teams to design scalable system architectures for real time analytics',
+      'Created an SQL Copilot (Python + RAG) serving 1000+ internal analytics queries',
+      'Built and maintained Metabase dashboards and BI pipelines for performance monitoring and partner KPIs'
+    ],
     icon: '/assets/opel.png',
-    animation: 'developer',
+    animation: 'clapping',
   },
   {
     id: 2,
     name: 'Carl Zeiss Medical Technology',
     pos: 'Data & Process Engineer Working Student',
     duration: 'Feb 2022 - Feb 2024',
-    title: `● Automated quality measurement and data acquisition in medical device manufacturing, increasing traceability.
-            ● Developed Python-based workflows for device qualification, integrated into MES systems.
-            ● Delivered cross-departmental dashboards and reports enhancing data-driven process control.`,
+    title: [
+      'Automated quality measurement and data acquisition in medical device manufacturing, increasing traceability',
+      'Developed Python-based workflows for device qualification, integrated into MES systems',
+      'Delivered cross-departmental dashboards and reports enhancing data-driven process control'
+    ],
     icon: '/assets/zeiss.png',
     animation: 'victory',
   },
@@ -279,7 +283,10 @@ export const workExperiences = [
     name: 'Opel GmbH',
     pos: 'Pre-Internship',
     duration: 'March 2020 - May 2022',
-    title: "● I acquired basic skills in metalworking processes and techniques and gained essential knowledge in mechanical engineering principles",
+    title: [
+      'I acquired basic skills in metalworking processes and techniques',
+      'Gained essential knowledge in mechanical engineering principles'
+    ],
     icon: '/assets/opel.png',
     animation: 'clapping',
   },
