@@ -11,10 +11,6 @@ __pycache__/
 *.pyd
 *.python-version
 
-# Jupyter and notebooks
-.ipynb_checkpoints/
-*.ipynb_checkpoints
-
 # VS Code and IDE settings
 .vscode/
 .idea/
