@@ -27,8 +27,8 @@ export const studyExperiences = [
     icon: '/assets/school-logo2.png',
     institution: 'Humboldt Universität zu Berlin',
     degree: 'M.Sc. in Information Systems',
-    duration: '2022 - Present',
-    details: 'Specializing in ML Development and Data Science',
+    duration: '2023 - Present',
+    details: 'Specializing in ML, Software Development and Analytics',
   },
   {
     id:2,
@@ -250,19 +250,36 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const workExperiences = [
   {
     id: 1,
+    name: 'Lanch GmbH',
+    pos: 'Software Engineer Internship',
+    duration: 'March 2025 - August 2025',
+    title: `●	Built and maintained containerized data pipelines (Docker, Airflow, dbt) on GCP, integrating multiple data sources.
+            ●	Developed automated deployment workflows for ETL jobs using CI/CD
+            ●	Automated billing and invoicing across HubSpot, BigQuery and payment APIs
+            ●	Implemented monitoring and alerting for live data syncs across 550+ stores to ensure consistent performance and uptime.
+            ●	Collaborated with other department teams to design scalable system architectures for real time analytics.
+            ●	Created an SQL Copilot (Python + RAG) serving 1000+ internal analytics queries.
+            ●	Built and maintained Metabase dashboards and BI pipelines for performance monitoring and partner KPIs.`,
+    icon: '/assets/opel.png',
+    animation: 'developer',
+  },
+  {
+    id: 2,
     name: 'Carl Zeiss Medical Technology',
-    pos: 'Process Engineer Working Student',
+    pos: 'Data & Process Engineer Working Student',
     duration: 'Feb 2022 - Feb 2024',
-    title: "In this role, I developed Python Dashboards for machine data visualization, automated measurement procedures with Python and analyzed results to create technical reports. I also contributed to qualifying devices for medical implant production and collaborated on developing an innovative IOL insertion holder.",
+    title: `● Automated quality measurement and data acquisition in medical device manufacturing, increasing traceability.
+            ● Developed Python-based workflows for device qualification, integrated into MES systems.
+            ● Delivered cross-departmental dashboards and reports enhancing data-driven process control.`,
     icon: '/assets/zeiss.png',
     animation: 'victory',
   },
   {
-    id: 2,
+    id: 3,
     name: 'Opel GmbH',
     pos: 'Pre-Internship',
     duration: 'March 2020 - May 2022',
-    title: "I acquired basic skills in metalworking processes and techniques and gained essential knowledge in mechanical engineering principles",
+    title: "● I acquired basic skills in metalworking processes and techniques and gained essential knowledge in mechanical engineering principles",
     icon: '/assets/opel.png',
     animation: 'clapping',
   },
