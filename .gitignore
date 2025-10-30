@@ -32,3 +32,6 @@ build/
 dist/
 *.egg-info/
 .eggs/
+
+# Node modules
+node_modules/
