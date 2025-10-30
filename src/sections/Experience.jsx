@@ -50,7 +50,11 @@ const WorkExperience = () => {
                     <p className="text-sm mb-5">
                       {item.pos} -- <span>{item.duration}</span>
                     </p>
-                    <p className="group-hover:text-white transition-all ease-in-out duration-500">{item.title}</p>
+                    <ul className="list-disc pl-4 space-y-2 group-hover:text-white transition-all ease-in-out duration-500">
+                      {item.title.map((point, pointIndex) => (
+                        <li key={pointIndex} className="text-sm">{point}</li>
+                      ))}
+                    </ul>
                   </div>
                 </div>
               ))}
