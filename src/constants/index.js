@@ -85,7 +85,7 @@ export const clientReviews = [
 
 export const myProjects = [
   {
-    title: 'MURMEL - Robot Orientation Detection - ',
+    title: 'MURMEL - AI Robot Orientation Detection',
     desc: 'It\'s like the disney cartoon wall-E, but made into real-life! The MURMEL Project is an autonomous waste collection robot developed at TU Berlin. Using machine learning, computer vision and ROS, it efficiently detects, aligns, and empties urban litter bins, reducing CO₂ emissions and enhancing sustainability.',
     subdesc:
       'I contributed to MURMEL by implementing ML models, computer vision techniques, and refining sensor fusion to improve object detection, orientation accuracy and overall system efficiency in dynamic urban environments.',
@@ -122,10 +122,10 @@ export const myProjects = [
     ],
   },
   {
-    title: 'Stock Forecast and Sentiment Dashboard',
-    desc: 'The Stock Forecast and Sentiment Dashboard provides comprehensive insights into the stock market using advanced predictive analytics, sentiment analysis and real-time market trends. By leveraging machine learning models and natural language processing (NLP) techniques, it empowers users to make informed investment decisions with actionable insights.',
+    title: 'ML Stock Forecast & Sentiment Dashboard',
+    desc: 'Designed data ingestion pipelines for live market feeds and sentiment streams (Reddit & YouTube). Built hybrid models (LSTM,GNN, XGBoost, ARIMA) in PyTorch and deployed via Docker on GCP. Achieved +15% forecasting accuracy and delivered real-time dashboard for non-technical use',
     subdesc:
-      'Key features include stock prediction models like Linear Regression, XGBoost, ARIMA and LSTM for accurate forecasts, and sentiment analysis through VADER Lexicon, Twitter RoBERTa, and BART Large MNLI. Designed for individuals with prior stock market knowledge, this dashboard bridges data science and finance for smarter investing.',
+      'Key features include stock prediction models like Linear Regression, XGBoost, ARIMA and LSTM for accurate forecasts and sentiment analysis through VADER Lexicon, Twitter RoBERTa, and BART Large MNLI.',
     href: 'https://github.com/3L1NK/Stock_Forecast_and_Sentiment_Dashboard',
     texture: '/textures/project/project2.mp4',
     logo: '/assets/money.png',
@@ -160,9 +160,9 @@ export const myProjects = [
   },
   {
     title: 'Blockchain for Networked Automation',
-    desc: 'The Blockchain for Networked Automation Project investigates the application of blockchain technology to enhance communication and data transfer within industrial automation systems. By leveraging blockchain’s decentralized and cryptographic properties, the project aims to implement secure and efficient communication protocols for networked environments.',
+    desc: 'The Blockchain for Networked Automation Project investigates the application of blockchain technology to enhance communication and data transfer within industrial automation systems. The project aims to implement secure and efficient communication protocols for networked environments.',
     subdesc:
-      'This project explores the integration of blockchain into automation technology, focusing on designing communication protocols, implementing smart contracts for secure data flow, and evaluating performance in simulated environments. It aims to address the challenges of secure, scalable, and efficient communication in networked systems, providing a foundation for future advancements in blockchain-enabled automation.',
+      'This project explores the integration of blockchain into automation technology, focusing on designing communication protocols, implementing smart contracts for secure data flow, and evaluating performance in simulated environments.',
     href: 'https://github.com/3L1NK/Blockchain_for_network_automation',
     texture: '/textures/project/project3.mp4',
     logo: '/assets/bitcoin.png',
@@ -262,8 +262,8 @@ export const workExperiences = [
       'Created an SQL Copilot (Python + RAG) serving 1000+ internal analytics queries',
       'Built and maintained Metabase dashboards and BI pipelines for performance monitoring and partner KPIs'
     ],
-    icon: '/assets/opel.png',
-    animation: 'clapping',
+    icon: '/assets/lanch.png',
+    animation: 'salute',
   },
   {
     id: 2,
@@ -273,7 +273,7 @@ export const workExperiences = [
     title: [
       'Automated quality measurement and data acquisition in medical device manufacturing, increasing traceability',
       'Developed Python-based workflows for device qualification, integrated into MES systems',
-      'Delivered cross-departmental dashboards and reports enhancing data-driven process control'
+      'Delivered cross departmental dashboards and reports enhancing data-driven process control'
     ],
     icon: '/assets/zeiss.png',
     animation: 'victory',
