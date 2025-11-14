@@ -1,7 +1,7 @@
 # 3L1NK Personal Portfolio Website 🌐
 
 ### 🌟 Live Preview
-Check out the live version of my portfolio here:  [**3L1NK Website Portfolio**](https://sparkling-creponne-e6de44.netlify.app/)
+Check out the live version of my portfolio here:  [**3L1NK Website Portfolio**]((https://ericrusli-portofolio.netlify.app/))
 
 ---
 
