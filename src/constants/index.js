@@ -263,7 +263,7 @@ export const workExperiences = [
       'Built and maintained Metabase dashboards and BI pipelines for performance monitoring and partner KPIs'
     ],
     icon: '/assets/lanch.png',
-    animation: 'salute',
+    animation: 'clapping',
   },
   {
     id: 2,
