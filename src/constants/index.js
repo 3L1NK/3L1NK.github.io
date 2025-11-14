@@ -256,14 +256,14 @@ export const workExperiences = [
     title: [
       'Built and maintained containerized data pipelines (Docker, Airflow, dbt) on GCP, integrating multiple data sources',
       'Developed automated deployment workflows for ETL jobs using CI/CD',
-      'Automated billing and invoicing across HubSpot, BigQuery and payment APIs',
+      'Analyse and Automated billing and invoicing across HubSpot, BigQuery and payment APIs',
       'Implemented monitoring and alerting for live data syncs across 550+ stores to ensure consistent performance and uptime',
       'Collaborated with other department teams to design scalable system architectures for real time analytics',
       'Created an SQL Copilot (Python + RAG) serving 1000+ internal analytics queries',
       'Built and maintained Metabase dashboards and BI pipelines for performance monitoring and partner KPIs'
     ],
     icon: '/assets/lanch.png',
-    animation: 'clapping',
+    animation: 'salute',
   },
   {
     id: 2,
