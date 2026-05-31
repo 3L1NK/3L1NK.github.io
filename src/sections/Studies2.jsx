@@ -1,14 +1,14 @@
-import { studyExperiences } from "../constants";
+import { studyExperiences } from '../constants/index.js';
 
 const StudyExperience = () => {
   return (
-    <section className="c-space my-20" id="study">
+    <section className="c-space my-20" id="education">
       <div className="w-full text-white-600">
         <p className="head-text mb-8">My Education</p>
 
         <div className="edu-container flex flex-col space-y-8">
           {studyExperiences.map(
-            ({ icon, institution, degree, duration, details }, index) => (
+            ({ icon, institution, degree, details }, index) => (
               <div
                 key={index}
                 className="flex items-start space-x-4"
@@ -28,9 +28,7 @@ const StudyExperience = () => {
                 {/* Text Section */}
                 <div>
                   <p className="font-bold text-white-800">{institution}</p>
-                  <p className="text-sm text-gray-400">
-                    {degree} -- {duration}
-                  </p>
+                  <p className="text-sm text-gray-400">{degree}</p>
                   <p className="text-sm text-gray-500 mt-2">{details}</p>
                 </div>
               </div>

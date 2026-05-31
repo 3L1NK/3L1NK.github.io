@@ -53,9 +53,7 @@ const MyStudies = () => {
 
                   <div className="sm:p-5 px-2.5 py-5">
                     <p className="font-bold text-white-800">{item.institution}</p>
-                    <p className="text-sm mb-5">
-                      {item.degree} -- <span>{item.duration}</span>
-                    </p>
+                    <p className="text-sm mb-5">{item.degree}</p>
                     <p className="group-hover:text-white transition-all ease-in-out duration-500">
                       {item.details}
                     </p>

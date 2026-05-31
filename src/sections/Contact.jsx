@@ -72,10 +72,9 @@ const Contact = () => {
         <img src="/assets/terminal.png" alt="terminal-bg" className="absolute inset-0 min-h-screen" />
 
         <div className="contact-container">
-          <h3 className="head-text">Let's connect</h3>
+          <h3 className="head-text">Let&apos;s connect</h3>
           <p className="text-lg text-white-600 mt-3">
-            Whether you’re just giving a simple feedback or bring a unique project to
-            life, I’m here to help.
+            Whether you want to share feedback or bring a unique project to life, I&apos;m happy to connect.
           </p>
 
           <form ref={formRef} onSubmit={handleSubmit} className="mt-12 flex flex-col space-y-7">

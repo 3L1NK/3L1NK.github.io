@@ -11,77 +11,51 @@ export const navLinks = [
   },
   {
     id: 3,
-    name: 'Work',
-    href: '#work',
+    name: 'Projects',
+    href: '#projects',
   },
   {
     id: 4,
+    name: 'Education',
+    href: '#education',
+  },
+  {
+    id: 5,
+    name: 'Experience',
+    href: '#experience',
+  },
+  {
+    id: 6,
     name: 'Contact',
     href: '#contact',
   },
 ];
 
 export const studyExperiences = [
-  { 
+  {
     id: 1,
     icon: '/assets/school-logo2.png',
     institution: 'Humboldt Universität zu Berlin',
-    degree: 'M.Sc. in Information Systems',
-    duration: '2023 - Present',
+    degree: 'M.Sc. in Business Informatics',
     details: 'Specializing in ML, Software Development and Analytics',
   },
   {
-    id:2,
+    id: 2,
     icon: '/assets/school-logo1.png',
     institution: 'Technical University of Berlin',
     degree: 'B.Sc. in Computational Engineering Science',
-    duration: 'Oct 2019 - Aug 2023',
     details: 'Focused on Mechatronic and Machine Learning Development',
   },
   {
-    id:3,
+    id: 3,
     icon: '/assets/school-logo1.png',
     institution: 'Technical University of Berlin',
     degree: 'Studienkolleg T-Kurz',
-    duration: 'Feb 2019 - Aug 2019',
-    details: 'Vergleichschule in Deutschland',
+    details: 'Preparatory course in engineering, mathematics, and natural sciences',
   },
 ];
 
-export const clientReviews = [
-  {
-    id: 1,
-    name: 'Emily Johnson',
-    position: 'Marketing Director at GreenLeaf',
-    img: 'assets/review1.png',
-    review:
-      'Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.',
-  },
-  {
-    id: 2,
-    name: 'Mark Rogers',
-    position: 'Founder of TechGear Shop',
-    img: 'assets/review2.png',
-    review:
-      'Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.',
-  },
-  {
-    id: 3,
-    name: 'John Dohsas',
-    position: 'Project Manager at UrbanTech ',
-    img: 'assets/review3.png',
-    review:
-      'I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.',
-  },
-  {
-    id: 4,
-    name: 'Ether Smith',
-    position: 'CEO of BrightStar Enterprises',
-    img: 'assets/review4.png',
-    review:
-      'Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.',
-  },
-];
+export const clientReviews = [];
 
 export const myProjects = [
   {
@@ -106,8 +80,8 @@ export const myProjects = [
       },
       {
         id: 2,
-        name: 'TF',
-        path: 'assets/tf.png',
+        name: 'TensorFlow',
+        path: '/assets/tf.png',
       },
       {
         id: 3,
@@ -144,7 +118,7 @@ export const myProjects = [
       {
         id: 2,
         name: 'Docker',
-        path: 'assets/docker.png',
+        path: '/assets/docker.png',
       },
       {
         id: 3,
@@ -177,13 +151,13 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: 'Java Script',
+        name: 'JavaScript',
         path: '/assets/js.png',
       },
       {
         id: 2,
         name: 'Solana',
-        path: 'assets/solana.png',
+        path: '/assets/solana.png',
       },
       {
         id: 3,
@@ -192,7 +166,7 @@ export const myProjects = [
       },
       {
         id: 4,
-        name: 'Node Js',
+        name: 'Node.js',
         path: '/assets/nodejs.png',
       },
     ],
@@ -219,8 +193,8 @@ export const myProjects = [
       },
       {
         id: 2,
-        name: 'TF',
-        path: 'assets/tf.png',
+        name: 'TensorFlow',
+        path: '/assets/tf.png',
       },
       {
         id: 3,
@@ -242,7 +216,7 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
     deskPosition: isMobile ? [0.5, -4.5, 0] : [0.25, -5.5, 0],
     cubePosition: isSmall ? [4, -5, 0] : isMobile ? [5, -5, 0] : isTablet ? [5, -5, 0] : [9, -5.5, 0],
     reactLogoPosition: isSmall ? [3, 4, 0] : isMobile ? [5, 4, 0] : isTablet ? [5, 4, 0] : [12, 3, 0],
-    ringPosition: isSmall ? [-5, 7, 0] : isMobile ? [-10, 10, 0] : isTablet ? [-12, 10, 0] : [-24, 10, 0],
+    ringPosition: isSmall ? [-4, 7, 0] : isMobile ? [-8, 9, 0] : isTablet ? [-10, 9, 0] : [-18, 8, 0],
     targetPosition: isSmall ? [-5, -10, -10] : isMobile ? [-9, -10, -10] : isTablet ? [-11, -7, -10] : [-13, -13, -10],
   };
 };
@@ -250,45 +224,56 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const workExperiences = [
   {
     id: 1,
+    name: 'Pflegia GmbH',
+    pos: 'Analytics Engineer Internship',
+    duration: 'January 2026 - July 2026',
+    title: [
+      'Analyzed low-quality candidate profiles to improve the hiring process',
+      'Developed and maintained 30+ platform crawlers for the operations team',
+      'Managed and developed an agentic call agent to automate candidate outreach and scheduling',
+    ],
+    icon: '/assets/pflegia-logo.jpeg',
+    animation: 'victory',
+  },
+  {
+    id: 2,
     name: 'Lanch GmbH',
     pos: 'Software Engineer Internship',
     duration: 'March 2025 - August 2025',
     title: [
-      'Built and maintained containerized data pipelines (Docker, Airflow, dbt) on GCP, integrating multiple data sources',
-      'Developed automated deployment workflows for ETL jobs using CI/CD',
-      'Analyse and Automated billing and invoicing across HubSpot, BigQuery and payment APIs',
+      'Built and maintained data pipelines using Docker, Airflow and dbt on GCP',
+      'Analyzed and automated billing and invoicing across HubSpot, BigQuery and payment APIs',
       'Implemented monitoring and alerting for live data syncs across 550+ stores to ensure consistent performance and uptime',
-      'Collaborated with other department teams to design scalable system architectures for real time analytics',
+      'Designed scalable system architectures for real time analytics',
       'Created an SQL Copilot (Python + RAG) serving 1000+ internal analytics queries',
-      'Built and maintained Metabase dashboards and BI pipelines for performance monitoring and partner KPIs'
+      'Built dashboards for performance monitoring and partner KPIs',
     ],
     icon: '/assets/lanch.png',
     animation: 'salute',
   },
   {
-    id: 2,
+    id: 3,
     name: 'Carl Zeiss Medical Technology',
     pos: 'Data & Process Engineer Working Student',
     duration: 'Feb 2022 - Feb 2024',
     title: [
-      'Automated quality measurement and data acquisition in medical device manufacturing, increasing traceability',
-      'Developed Python-based workflows for device qualification, integrated into MES systems',
-      'Delivered cross departmental dashboards and reports enhancing data-driven process control'
+      'Automated quality measurement and data acquisition in medical device manufacturing',
+      'Developed Python workflows for device qualification, integrated into MES systems',
+      'Delivered cross departmental dashboards and reports enhancing data driven process control',
     ],
     icon: '/assets/zeiss.png',
     animation: 'victory',
   },
   {
-    id: 3,
+    id: 4,
     name: 'Opel GmbH',
     pos: 'Pre-Internship',
     duration: 'March 2020 - May 2022',
     title: [
-      'I acquired basic skills in metalworking processes and techniques',
-      'Gained essential knowledge in mechanical engineering principles'
+      'Acquired skills in metalworking processes and techniques',
+      'Gained essential knowledge in mechanical engineering principles',
     ],
     icon: '/assets/opel.png',
     animation: 'clapping',
   },
-  
 ];

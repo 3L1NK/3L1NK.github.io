@@ -10,7 +10,7 @@ const WorkExperience = () => {
   const [animationName, setAnimationName] = useState('idle');
 
   return (
-    <section className="c-space my-20" id="work">
+    <section className="c-space my-20" id="experience">
       <div className="w-full text-white-600">
         <p className="head-text">My Work Experience</p>
 
@@ -39,7 +39,7 @@ const WorkExperience = () => {
                   className="work-content_container group">
                   <div className="flex flex-col h-full justify-start items-center py-2">
                     <div className="work-content_logo">
-                      <img className="w-full h-full" src={item.icon} alt="" />
+                      <img className="w-full h-full object-contain" src={item.icon} alt={`${item.name} logo`} />
                     </div>
 
                     <div className="work-content_bar" />

@@ -28,12 +28,12 @@ const About = () => {
         {/* Section 1 */}
         <div className="col-span-1 xl:row-span-3">
           <div className="grid-container">
-            <img src="assets/grid1.png" alt="grid-1" className="w-full sm:h-[276px] h-fit object-contain" />
+            <img src="/assets/grid1.png" alt="grid-1" className="w-full sm:h-[276px] h-fit object-contain" />
 
             <div>
               <p className="grid-headtext">Hello World, I’m Eric Rusli 🇮🇩</p>
               <p className="grid-subtext">
-                I'm an Indonesian student based in Berlin, Germany. Currently, I'm building my carreer as an ML Engineer / ML DevOps. 
+                I&apos;m an Indonesian based in Berlin, Germany. Currently, I&apos;m building my career in SWE.
               </p>
             </div>
           </div>
@@ -42,12 +42,12 @@ const About = () => {
         {/* Section 2 */}
         <div className="col-span-1 xl:row-span-3">
           <div className="grid-container">
-            <img src="assets/grid2.png" alt="grid-2" className="w-full sm:h-[276px] h-fit object-contain" />
+            <img src="/assets/grid2.png" alt="grid-2" className="w-full sm:h-[276px] h-fit object-contain" />
 
             <div>
               <p className="grid-headtext">Tech Stack 🧑🏻‍💻</p>
               <p className="grid-subtext">
-                I specialize in a variety of languages, frameworks and tools to help me solve real world problems 🤔 
+                I work with frameworks and tools that help me solve real world problems.
               </p>
             </div>
           </div>
@@ -72,7 +72,7 @@ const About = () => {
             <div>
               <p className="grid-headtext">I’m very flexible with time zone communications & locations</p>
               <p className="grid-subtext">I&apos;m based in Berlin, Germany and open to remote work worldwide.</p>
-              <Button name="Contact Me" isBeam containerClass="w-full mt-10" onClick={handleScrollToContact}/>
+              <Button name="Contact Me" isBeam containerClass="w-full mt-10" onClick={handleScrollToContact} />
             </div>
           </div>
         </div>
@@ -80,22 +80,22 @@ const About = () => {
         {/* Section 4 */}
         <div className="xl:col-span-2 xl:row-span-3">
           <div className="grid-container">
-            <img src="assets/grid3.png" alt="grid-3" className="w-full sm:h-[266px] h-fit object-contain" />
+            <img src="/assets/grid3.png" alt="grid-3" className="w-full sm:h-[266px] h-fit object-contain" />
 
             <div>
               <p className="grid-headtext">My Passion for Coding</p>
               <p className="grid-subtext">
-              Bringing ideas to life through code, exploring the coolest AI and data-driven solutions. 
+                Bringing ideas to life through code while exploring practical AI and data driven solutions.
               </p>
             </div>
           </div>
         </div>
 
-        {/* Section 5 (Contact) */}
-        <div id="contact" className="xl:col-span-1 xl:row-span-2">
+        {/* Section 5 (Email) */}
+        <div id="email-card" className="xl:col-span-1 xl:row-span-2">
           <div className="grid-container">
             <img
-              src="assets/grid4.png"
+              src="/assets/grid4.png"
               alt="grid-4"
               className="w-full md:h-[126px] sm:h-[276px] h-fit object-cover sm:object-top"
             />
@@ -103,7 +103,7 @@ const About = () => {
             <div className="space-y-2">
               <p className="grid-subtext text-center">Contact me</p>
               <div className="copy-container" onClick={handleCopy}>
-                <img src={hasCopied ? 'assets/tick.svg' : 'assets/copy.svg'} alt="copy" />
+                <img src={hasCopied ? '/assets/tick.svg' : '/assets/copy.svg'} alt="copy" />
                 <p className="lg:text-2xl md:text-xl font-medium text-gray_gradient text-white">ericrusli123@gmail.com</p>
               </div>
             </div>
