@@ -4,9 +4,23 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/assets/er_logo.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Eric Rusli Portofolio</title>
+    <meta name="description" content="Eric Rusli — Applied AI Engineer building practical, scalable AI and data systems." />
+    <title>Eric Rusli — Applied AI Engineer</title>
   </head>
   <body>
+    <form
+      name="contact"
+      data-netlify="true"
+      netlify-honeypot="bot-field"
+      aria-hidden="true"
+      style="position:absolute;overflow:hidden;clip:rect(0 0 0 0);height:1px;width:1px;margin:-1px;padding:0;border:0"
+    >
+      <input type="hidden" name="form-name" value="contact" />
+      <p><label>Don&apos;t fill this out: <input name="bot-field" /></label></p>
+      <input name="name" />
+      <input name="email" type="email" />
+      <textarea name="message"></textarea>
+    </form>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>

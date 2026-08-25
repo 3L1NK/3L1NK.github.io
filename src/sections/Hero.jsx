@@ -23,14 +23,14 @@ const Hero = () => {
   const sizes = calculateSizes(isSmall, isMobile, isTablet);
 
   return (
-    <section className="min-h-screen w-full flex flex-col relative" id="home">
-      <div className="w-full mx-auto flex flex-col sm:mt-36 mt-20 c-space gap-3">
+    <section className="min-h-screen w-full max-w-full flex flex-col relative overflow-hidden" id="home">
+      <div className="relative z-10 w-full max-w-full min-w-0 mx-auto flex flex-col sm:mt-36 mt-20 c-space gap-3">
         <p className="sm:text-3xl text-xl font-medium text-white text-center font-generalsans">
           Hi, I am Eric <span className="waving-hand">👋</span>
         </p>
-        <p className="hero_tag text-gray_gradient">Software Developer</p>
-        <p className="hero_subtag text-gray-300 text-center">
-          A developer building practical ML, data and automation tools.
+        <p className="hero_tag max-w-full break-words text-gray_gradient">AI Engineer</p>
+        <p className="hero_subtag max-w-2xl mx-auto text-gray-300 text-center break-words">
+          I turn messy processes into simple, scalable solutions across product, data and operations.
         </p>
       </div>
 

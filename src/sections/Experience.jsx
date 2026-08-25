@@ -28,7 +28,11 @@ const WorkExperience = () => {
             </Canvas>
           </div>
 
-          <div className="work-content">
+          <div
+            className="work-content max-h-[70vh] overflow-y-auto overscroll-contain focus:outline-none focus-visible:ring-2 focus-visible:ring-cyan-300 lg:max-h-[42rem]"
+            tabIndex={0}
+            aria-label="Scrollable work experience"
+          >
             <div className="sm:py-10 py-5 sm:px-5 px-2.5">
               {workExperiences.map((item, index) => (
                 <div
@@ -48,7 +52,7 @@ const WorkExperience = () => {
                   <div className="sm:p-5 px-2.5 py-5">
                     <p className="font-bold text-white-800">{item.name}</p>
                     <p className="text-sm mb-5">
-                      {item.pos} -- <span>{item.duration}</span>
+                      {item.pos} -- <span>{item.status ? `${item.status} · ` : ''}{item.duration}</span>
                     </p>
                     <ul className="list-disc pl-4 space-y-2 group-hover:text-white transition-all ease-in-out duration-500">
                       {item.title.map((point, pointIndex) => (

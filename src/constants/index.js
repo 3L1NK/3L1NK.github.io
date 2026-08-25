@@ -11,8 +11,8 @@ export const navLinks = [
   },
   {
     id: 3,
-    name: 'Projects',
-    href: '#projects',
+    name: 'Experience',
+    href: '#experience',
   },
   {
     id: 4,
@@ -21,8 +21,8 @@ export const navLinks = [
   },
   {
     id: 5,
-    name: 'Experience',
-    href: '#experience',
+    name: 'Projects',
+    href: '#projects',
   },
   {
     id: 6,
@@ -30,6 +30,12 @@ export const navLinks = [
     href: '#contact',
   },
 ];
+
+// Keep profile URLs in one place so they can be updated without touching the footer layout.
+export const socialLinks = {
+  github: 'https://github.com/3L1NK',
+  linkedin: 'https://www.linkedin.com/in/eric-rusli/',
+};
 
 export const studyExperiences = [
   {
@@ -51,7 +57,7 @@ export const studyExperiences = [
     icon: '/assets/school-logo1.png',
     institution: 'Technical University of Berlin',
     degree: 'Studienkolleg T-Kurz',
-    details: 'Preparatory course in engineering, mathematics, and natural sciences',
+    details: 'Preparatory course in engineering, mathematics and natural sciences',
   },
 ];
 
@@ -60,9 +66,9 @@ export const clientReviews = [];
 export const myProjects = [
   {
     title: 'MURMEL - AI Robot Orientation Detection',
-    desc: 'It\'s like the disney cartoon wall-E, but made into real-life! The MURMEL Project is an autonomous waste collection robot developed at TU Berlin. Using machine learning, computer vision and ROS, it efficiently detects, aligns, and empties urban litter bins, reducing CO₂ emissions and enhancing sustainability.',
+    desc: 'It\'s like the disney cartoon wall-E, but made into real-life. The MURMEL Project is an autonomous waste collection robot developed at TU Berlin. Using machine learning, computer vision and ROS, it efficiently detects, aligns and empties urban litter bins, reducing CO₂ emissions and enhancing sustainability.',
     subdesc:
-      'I contributed to MURMEL by implementing ML models, computer vision techniques, and refining sensor fusion to improve object detection, orientation accuracy and overall system efficiency in dynamic urban environments.',
+      'I contributed to MURMEL by implementing ML models, computer vision techniques and refining sensor fusion to improve object detection, orientation accuracy and overall system efficiency in dynamic urban environments.',
     href: 'https://www.tu.berlin/en/mpm/research/projects/murmel',
     texture: '/textures/project/project1.mp4',
     logo: '/assets/mpm.png',
@@ -99,7 +105,7 @@ export const myProjects = [
     title: 'ML Stock Forecast & Sentiment Dashboard',
     desc: 'Designed data ingestion pipelines for live market feeds and sentiment streams (Reddit & YouTube). Built hybrid models (LSTM,GNN, XGBoost, ARIMA) in PyTorch and deployed via Docker on GCP. Achieved +15% forecasting accuracy and delivered real-time dashboard for non-technical use',
     subdesc:
-      'Key features include stock prediction models like Linear Regression, XGBoost, ARIMA and LSTM for accurate forecasts and sentiment analysis through VADER Lexicon, Twitter RoBERTa, and BART Large MNLI.',
+      'Key features include stock prediction models like Linear Regression, XGBoost, ARIMA and LSTM for accurate forecasts and sentiment analysis through VADER Lexicon, Twitter RoBERTa and BART Large MNLI.',
     href: 'https://github.com/3L1NK/Stock_Forecast_and_Sentiment_Dashboard',
     texture: '/textures/project/project2.mp4',
     logo: '/assets/money.png',
@@ -136,7 +142,7 @@ export const myProjects = [
     title: 'Blockchain for Networked Automation',
     desc: 'The Blockchain for Networked Automation Project investigates the application of blockchain technology to enhance communication and data transfer within industrial automation systems. The project aims to implement secure and efficient communication protocols for networked environments.',
     subdesc:
-      'This project explores the integration of blockchain into automation technology, focusing on designing communication protocols, implementing smart contracts for secure data flow, and evaluating performance in simulated environments.',
+      'This project explores the integration of blockchain into automation technology, focusing on designing communication protocols, implementing smart contracts for secure data flow and evaluating performance in simulated environments.',
     href: 'https://github.com/3L1NK/Blockchain_for_network_automation',
     texture: '/textures/project/project3.mp4',
     logo: '/assets/bitcoin.png',
@@ -173,9 +179,9 @@ export const myProjects = [
   },
   {
     title: 'IBM Data Science Certificate',
-    desc: 'The IBM Data Science Professional Certificate on Coursera provides hands-on experience with data science tools, methodologies, and programming languages like Python, SQL, and machine learning through real-world projects.',
+    desc: 'The IBM Data Science Professional Certificate on Coursera provides hands-on experience with data science tools, methodologies and programming languages like Python, SQL and machine learning through real-world projects.',
     subdesc:
-      'This program honed my skills in data analysis, database management, and machine learning. Projects included analyzing datasets, building visualizations, and deploying predictive models, showcasing my ability to derive insights and solve complex problems.',
+      'This program honed my skills in data analysis, database management and machine learning. Projects included analyzing datasets, building visualizations and deploying predictive models, showcasing my ability to derive insights and solve complex problems.',
     href: 'https://www.coursera.org/account/accomplishments/specialization/KBINKE63XRYL',
     texture: '/textures/project/project4.mp4',
     logo: '/assets/ibm.png',
@@ -225,12 +231,15 @@ export const workExperiences = [
   {
     id: 1,
     name: 'Pflegia GmbH',
-    pos: 'Analytics Engineer Internship',
-    duration: 'January 2026 - July 2026',
+    pos: 'Applied AI Engineer',
+    status: 'Full-time',
+    duration: 'January 2026 - Present',
     title: [
-      'Analyzed low-quality candidate profiles to improve the hiring process',
-      'Developed and maintained 30+ platform crawlers for the operations team',
-      'Managed and developed an agentic call agent to automate candidate outreach and scheduling',
+      'Built AWS infrastructure and backend services for AI-powered workflows',
+      'Designed reliable data pipelines to supply production agent systems',
+      'Developed prompts and orchestration workflows for an agentic call platform',
+      'Added testing and A/B experiments to improve agent quality and reliability',
+      'Monitored data quality and system behavior to keep production outputs trustworthy',
     ],
     icon: '/assets/pflegia-logo.jpeg',
     animation: 'victory',

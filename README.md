@@ -6,10 +6,10 @@ Check out the live version of my portfolio here:  [**3L1NK Website Portfolio**](
 ---
 
 ## Technologies Used
-- **Frontend**: HTML, CSS, JavaScript
-- **Framework**: React.js + Vite
+- **Frontend**: React.js + Vite
 - **Styling**: Tailwind CSS
 - **3D/Animation**: Three.js, React Three Fiber, Drei, GSAP
+- **AI/data stack**: FastAPI, Python, Docker, AWS, SQL, Airflow, PostgreSQL
 - **Deployment**: Netlify
 
 ---
@@ -17,7 +17,7 @@ Check out the live version of my portfolio here:  [**3L1NK Website Portfolio**](
 ## Features
 - **Responsive Design**: Fully optimized for all screen sizes, from desktop to mobile.
 - **Dynamic Projects Section**: Showcases my latest projects with hover effects and links.
-- **About Me Section**: Highlighting my skills, experience, and career goals.
+- **About Me Section**: Highlighting my skills, experience and career goals.
 - **Contact Form**: Users can easily get in touch with me via the integrated form.
 
 ---
@@ -26,7 +26,7 @@ Check out the live version of my portfolio here:  [**3L1NK Website Portfolio**](
 This GitHub repository contains the source code for my portfolio. Feel free to explore the files and structure:
 - `src/`: Main source folder with React components.
 - `public/`: Static assets like images and icons.
-- `package.json`: JavaScript project metadata, dependencies, and npm scripts.
+- `package.json`: JavaScript project metadata, dependencies and npm scripts.
 - `package-lock.json`: Locked dependency versions. This is the npm equivalent of a reproducible requirements file.
 - `.nvmrc`: Recommended Node.js version for this project.
 - `.env.example`: Example environment variables for the contact form.
@@ -68,13 +68,13 @@ JavaScript projects do not use a Python-style `venv`. The equivalent local depen
    npm install
    ```
 
-4. Create a local environment file if you want the contact form to work:
+4. Create a local environment file if you want to keep local environment settings:
 
    ```bash
    cp .env.example .env
    ```
 
-   Then fill in the EmailJS values inside `.env`.
+   The contact form uses Netlify Forms in production, so no recipient email or secret is exposed in the frontend. In Netlify, enable form detection and create an email notification for the `contact` form addressed to your private inbox.
 
 5. Start the local development server:
 
@@ -124,8 +124,7 @@ npm run preview
 
 --- 
 ## Contact
-Feel free to reach out with feedback or collaboration opportunities:
+Feel free to reach out through the contact form on the website, or connect on:
 
-- Email: ericrusli123@gmail.com
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/eric-rusli/)
 - GitHub: [3L1NK](https://github.com/3L1NK)
